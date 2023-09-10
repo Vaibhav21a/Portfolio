@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.home{
+    background-color: #1f6cd1;
+    padding: 10px;
+    height: 100vh;
+}
+
+.heading{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Caveat;
+    font-weight: bold;
+    margin-right: 30px;
+    
+}
+.content-cont{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 13px;
+    background-color: #ffffff;
+    align-items: center;
+    margin-right: 100px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 45px;
+    width: 1020px;
+    
+}
+.nav{
+    position: fixed;
+}
+.arrow{
+    height: 65px;
+    width: 65px;
+    margin: 8px;
+    border-radius: 32px;
+}
+.content{
+    text-align: center;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #1f6cd1;
+    transition: all ease 0.4s;
+}
+.container-home{
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+}
+.avtar{
+    margin: 10px;
+    padding:20px;
+    width: 48vh;
+    height: 48vh;
+}
+.home-head{
+    font-size: 34px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #20208c;
+    margin: 10px;
+}
+.sub-home-head{
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 800;
+    color: #ffffff;
+    margin: 10px;
+}
+.about{
+    background-image: url('https://res.cloudinary.com/dxo05iyyb/image/upload/v1691833645/back-abt_endzxc.jpg');
+    background-size: cover;
+    height: 100vh;
+    padding: 10px;
+    padding-top: 52px;
+    text-align: center;
+}
+.about-head{
+    color: #ffffff;
+    font-size: 36px;
+    font-family: cursive;
+    text-decoration: underline;
+    margin: 10px;
+}
+.about-para{
+    color: #ffffff;
+    padding: 15px;
+    margin: 5px;
+    font-size: 24px;
+    font-family: Caveat;
+}
+.skill-button{
+    background-color: #ffffff;
+    height: 36px;
+    width: 105px;
+    font-size: 22px;
+    border-radius: 5px;
+    border-width: 0px;
+    font-family: Caveat;
+}
+.skill{
+    background-image: url('https://res.cloudinary.com/dxo05iyyb/image/upload/v1691836217/back-skil_pq0han.jpg');
+    background-size: cover;
+    width: 100vh;
+    padding-top: 54px;
+    padding: 10px;
+}
+.skill2{
+    background-image: url('https://res.cloudinary.com/dxo05iyyb/image/upload/v1693741074/skill2-back_puuqzg.webp');
+    background-size: cover;
+    padding-top: 54px;
+    width: 110vh;
+    padding: 10px;
+}
+.but{
+    margin: 10px;
+    text-align: left;
+}
+.butt1{
+    background-color: #242bf2;
+    width: 260px;
+    height: 24px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-width: 0px;
+}
+.butt2{
+    background-color: #ffffff;
+    width: 90px;
+    height: 24px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #242bf2;
+    border-width: 0px;
+}
+.para-head{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Roboto;
+}
+.butt3{
+    background-color: #242bf2;
+    width: 220px;
+    height: 24px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-width: 0px;
+}
+.butt4{
+    background-color: #ffffff;
+    width: 130px;
+    height: 24px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #242bf2;
+    border-width: 0px;
+}
+.butt6{
+    background-color: #ffffff;
+    width: 175px;
+    height: 24px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #242bf2;
+    border-width: 0px;
+}
+.butt5{
+    background-color: #242bf2;
+    width: 175px;
+    height: 24px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-width: 0px;
+}
+.next{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.portfolio{
+    padding: 0px;
+    background-color: #ffffff;
+    height: 100vh;
+}
+.name{
+    height: 17vh;
+    text-align: right;
+    background-color: #ed9426;
+    padding: 20px;
+}
+.name-head{
+    color: #0a092e;
+    font-size: 34px;
+    font-family: Roboto;
+}
+.info-port{
+    height: 230px;
+    width: 350px;
+    background-color: #0a092e;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Arial;
+    padding: 15px;
+}
+.lang{
+    padding: 10px;
+    color: #000000;
+    height: 350px;
+    width: 350px;
+    margin: 10px;
+}
+.lang-head{
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 5px;
+    text-align: center;
+    font-family: Roboto;
+}
+.lang-cont{
+    font-size: 18px;
+    font-weight: 800;
+    font-family: cursive;
+}
+.divider{
+    height: 750px;
+    width: 60px;
+}
+.object{
+    padding: 20px;
+    color: #000000;
+}
+.obj-para{
+    margin: 5px;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: cursive;
+}
+.edu-head{
+    font-weight: 800;
+    font-family: Arial;
+    color: #ed9426;
+    font-size: 18px;
+}
+.edu-para{
+    font-size: 16px;
+    font-family: Arial;
+    color: #ed9426;
+    font-weight: 700;
+}
+.cont-but{
+    text-align: center;
+    height: 36px;
+    width: 120px;
+    border-radius: 10px;
+    border-width: 0px;
+    background-color: #ed9426;
+    color: white;
+}
+.cont-lang{
+    text-align: center;
+    color: #ffffff;
+    font-family: cursive;
+}
+.contact{
+    background-image: url('https://res.cloudinary.com/dxo05iyyb/image/upload/v1693581281/cont-back_f8hdok.jpg');
+    background-size: cover;
+    height: 100vh;
+    padding: 160px;
+    text-align: center;
+}
+.cont-area{
+    text-align: center;
+    padding: 10px;
+    margin: 25px;
+}
+.cont-space{
+    text-align: center;
+    padding: 10px;
+}
+.cont-para{
+    font-size: 18px;
+    font-family: cursive;
+    color: #ffffff;
+}
+.cont-line{
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #ffffff;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 17px;
+}
+.cont-end{
+    text-align: center;
+    padding: 10px;
+}
+.call-logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
